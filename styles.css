@@ -1,6 +1,6 @@
 @@import url(http://fonts.googleapis.com/css?family=Monserrat:400,700);
 body {
-  color: #555;
+  color: white;
   margin: 0;
 }
 #header {
@@ -32,9 +32,14 @@ body {
   display: inline;
   padding-left: 20px;
 }
-.container {
+.post-datecontainer {
   max-width: 1000px;
   margin: 0 auto;
+}
+.inpostpic {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px
 }
 #footer {
   background-color: #2f2f2f;
@@ -76,14 +81,30 @@ a:hover {
   height: 250px;
   vertical-align: middle;
 }
+.inposttitle {
+  text-decoration: underline;
+  font-size: 1.3em;
+  font-weight: bold;
+
+}
+.best {
+  font-size: 1.5em;
+  font-weight: bold;
+}
 .post-author span {
   margin-left: 16px;
 }
 .post-date {
-  color: #D2D2D2;
+  color: #D4D4D4;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.1em
+}
+.post-container:nth-child(even) {
+  background-color: #5555;
+}
+.post-container:nth-child(odd) {
+  background-color: #2222;
 }
 h1, h2, h3, h4 {
   color: #333;
